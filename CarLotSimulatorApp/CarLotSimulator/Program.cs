@@ -30,11 +30,13 @@ namespace CarLotSimulator
             carOne.MakeEngineNoise();
             carOne.MakeHonkNoise();
             carLot.AddCar(carOne);
+            Console.WriteLine(CarLot.numberOfCars);
 
             Car carTwo = new Car() { Year = 2022, Make = "Toyota", Model = "Supra", EngineNoise = "Vroom", HonkNoise = "Beep", IsDriveable = true };
             carTwo.MakeEngineNoise();
             carTwo.MakeHonkNoise();
             carLot.AddCar(carTwo);
+            Console.WriteLine(CarLot.numberOfCars);
 
             Car carThree = new Car();
             carThree.Year = 2023;
@@ -46,6 +48,7 @@ namespace CarLotSimulator
             carThree.MakeEngineNoise();
             carThree.MakeHonkNoise();
             carLot.AddCar(carThree);
+            Console.WriteLine(CarLot.numberOfCars);
 
             //*************BONUS*************//
 
